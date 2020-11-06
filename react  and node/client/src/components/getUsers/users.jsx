@@ -83,6 +83,14 @@ deleteUser(data){
 cancel=()=>{
   this.setState({updateId:""})
 }
+welcomeNote=()=>{
+  return(
+    <div className="title">
+      <h1>Welcome To Users Page!</h1>
+      <h2>create  Users To view Here..!</h2>
+    </div>
+  )
+}
 userTable(data){
   return(
     <table>
@@ -144,7 +152,7 @@ render(){
   return(
     <div className="users">
     <div className="users-fields">
-   {usersList.length?this.userTable(usersList):""}
+   {usersList.length?this.userTable(usersList):this.welcomeNote()}
     </div>
     
     </div>

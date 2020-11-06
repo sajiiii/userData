@@ -1,0 +1,40 @@
+.button {
+  border: none;
+  color: white;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 22px;
+  outline: none;
+}
+.delete {
+  background-color: red;
+}
+.update {
+  background-color: skyblue;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+input {
+  background-color: transparent;
+  border-radius: 8px;
+  border-color: #02ffff;
+}
+table {
+  margin-top: 50px;
+}
+td {
+  width: 10%;
+}
+th {
+  width: 10%;
+}

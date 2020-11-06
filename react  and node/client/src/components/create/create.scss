@@ -1,0 +1,27 @@
+.create {
+  .create-fields {
+    padding-top: 40px;
+    padding-left: 20px;
+    .content-box {
+      padding-right: 10px;
+    }
+    input {
+      background-color: transparent;
+      border-radius: 8px;
+      border-color: #02ffff;
+    }
+    .create-button {
+      content: "Create";
+      background-color: #4caf50;
+      border: none;
+      color: white;
+      padding: 10px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 22px;
+      outline: none;
+    }
+  }
+}
